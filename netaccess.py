@@ -2,6 +2,7 @@
 # script for automatic Netaccess approval for IIT Madras network
 # Author: Cibin Joseph
 # Last Updated: 23 Dec 2017
+# License: MIT License
 
 try:
     try:
