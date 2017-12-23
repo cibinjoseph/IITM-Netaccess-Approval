@@ -4,7 +4,7 @@ Python code that uses the mechanize library for netaccess approval of the IIT Ma
 ## Getting Started
 To get a copy of the project up and running on your local machine for development and testing purposes run
 ```sh
-git clone "git://github.com/cibinjoseph/IITM-Netaccess-Approval/"
+git clone "git://github.com/cibinjoseph/IITM-Netaccess-Approval.git"
 ```
 
 ## Prerequisites
