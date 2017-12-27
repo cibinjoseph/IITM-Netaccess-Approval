@@ -1,0 +1,19 @@
+#!/bin/bash
+# This bash script file installs the necessary packages for automated netaccess authentication.
+# ***Run with root privileges (sudo)***
+
+# Install necessary packages
+apt install git
+git clone https://github.com/cibinjoseph/IITM-Netaccess-Approval.git netaccess_git
+apt install python
+apt install python-pip
+pip install mechanize
+
+# Change netaccess.py to executable 
+chmod +x netaccess_git/netaccess.py
+
+# Move netaccess to /usr/bin folder for access
+cp netaccess_git/netaccess.py /usr/bin
+
+# Remove netaccess_git directory
+rm netaccess_git
