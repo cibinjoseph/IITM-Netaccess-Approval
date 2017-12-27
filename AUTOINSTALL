@@ -11,10 +11,14 @@ apt install python-pip
 pip install mechanize
 
 # Change netaccess.py to executable 
+echo 'Creating temperory netaccess_git directory'
 chmod +x netaccess_git/netaccess.py
 
 # Move netaccess to /usr/bin folder for access
 cp netaccess_git/netaccess.py /usr/bin
 
 # Remove netaccess_git directory
-rm netaccess_git
+echo 'Removing unnecessary netaccess_git directory'
+rm -r netaccess_git
+
+echo 'INSTALLATION COMPLETED SUCCESSFULLY'
