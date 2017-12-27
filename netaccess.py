@@ -34,7 +34,6 @@ try:
         print("ERROR: Webpage unavailable - check LAN connection and server status")
 
     if (username=="YourUsername"):
-        print("Error: username has not been set in code")
         print("Username has not been set in code. Enter Password")
         username=raw_input('Username: ')
     if (password=="YourPassword"):
