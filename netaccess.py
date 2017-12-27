@@ -7,7 +7,7 @@ username="YourUsername"
 password="YourPassword"
 
 if (username=="YourUsername"):
-    print('username and password details can be set permanently in /usr/bin/netaccess.py')
+    print('** Note: Username and password details can be set permanently in /usr/bin/netaccess.py **')
 
 import getpass
 
