@@ -1,6 +1,7 @@
 #!/bin/bash
-# This bash script file installs the necessary packages for automated netaccess authentication.
-# ***Run with root privileges (sudo)***
+# ***Run with root privileges using command "sudo bash AUTOINSTALL"***
+# This bash script file installs the necessary packages for automated netaccess authentication
+# without user intervention.
 
 # Install necessary packages
 apt install git
