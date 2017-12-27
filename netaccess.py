@@ -3,9 +3,10 @@
 # Author: Cibin Joseph
 # Last Updated: 27 Dec 2017
 # License: MIT License
-
 username="YourUsername"
 password="YourPassword"
+
+import getpass
 
 try:
     try:
@@ -31,6 +32,14 @@ try:
         br.select_form(nr=0)
     except:
         print("ERROR: Webpage unavailable - check LAN connection and server status")
+
+    if (username=="YourUsername"):
+        print("Error: username has not been set in code")
+        print("Username has not been set in code. Enter Password")
+        username=raw_input('Username: ')
+    if (password=="YourPassword"):
+        print("Password has not been set in code. Enter Password")
+        password=getpass.getpass()
 
     br.form["userLogin"]=username
     br.form["userPassword"]=password
