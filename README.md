@@ -1,6 +1,13 @@
 # IITM-Netaccess-Approval
 Python code that uses the mechanize library for netaccess approval of the IIT Madras network from command line
 
+## Installation
+An AUTOINSTALL script is available in this repository that automatically installs all necessary programs without user intervention. The user may  copy it and run it using sudo priveleges by invoking
+```sh
+sudo bash AUTOINSTALL
+```
+An INSTALL script is also available for users who would like to install after performing a git clone as described below.
+
 ## Getting Started
 To get a copy of the project up and running on your local machine for development and testing purposes run
 ```sh
