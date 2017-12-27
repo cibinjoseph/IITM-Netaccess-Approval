@@ -34,10 +34,10 @@ try:
         print("ERROR: Webpage unavailable - check LAN connection and server status")
 
     if (username=="YourUsername"):
-        print("Username has not been set in code. Enter Password")
+        print("Username has not been set in code. Enter LDAP Username")
         username=raw_input('Username: ')
     if (password=="YourPassword"):
-        print("Password has not been set in code. Enter Password")
+        print("Password has not been set in code. Enter LDAP Password")
         password=getpass.getpass()
 
     br.form["userLogin"]=username
