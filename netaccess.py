@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # script for automatic Netaccess approval for IIT Madras network
 # Author: Cibin Joseph
-# Last Updated: 23 Dec 2017
+# Last Updated: 27 Dec 2017
 # License: MIT License
 
 username="YourUsername"
@@ -34,7 +34,13 @@ try:
 
     br.form["userLogin"]=username
     br.form["userPassword"]=password
+    url1=br.geturl()
     result=br.submit()
+    url2=br.geturl()
+    if (url1==url2):
+        print("ERROR: Wrong username or password")
+        raise 
+
 
     # Second page
     print('2/3 Page')
