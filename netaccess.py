@@ -4,6 +4,9 @@
 # Last Updated: 23 Dec 2017
 # License: MIT License
 
+username="YourUsername"
+password="YourPassword"
+
 try:
     try:
         import mechanize
@@ -29,8 +32,8 @@ try:
     except:
         print("ERROR: Webpage unavailable - check LAN connection and server status")
 
-    br.form["userLogin"]="ae14d214"
-    br.form["userPassword"]="^2JcW1@k"
+    br.form["userLogin"]=username
+    br.form["userPassword"]=password
     result=br.submit()
 
     # Second page
