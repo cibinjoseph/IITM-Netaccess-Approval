@@ -1,0 +1,8 @@
+#!/bin/bash
+# This bash script file installs the necessary programs for automated netaccess authentication.
+# ***Run with root privileges (sudo)***
+
+apt install git
+apt install python
+apt install pip
+pip install mechanize
