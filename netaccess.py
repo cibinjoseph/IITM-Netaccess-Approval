@@ -31,10 +31,12 @@ try:
         print('1/3 Page')
     except:
         print("ERROR: Webpage unavailable - check LAN connection and server status")
+        exit(1)
     try:
         br.select_form(nr=0)
     except:
         print("ERROR: Webpage unavailable - check LAN connection and server status")
+        exit(1)
 
     if (username=="YourUsername"):
         print("Username has not been set in code. Enter LDAP Username")
@@ -50,8 +52,7 @@ try:
     url2=br.geturl()
     if (url1==url2):
         print("ERROR: Wrong username or password")
-        raise 
-
+        exit(1)
 
     # Second page
     print('2/3 Page')
