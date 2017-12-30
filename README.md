@@ -2,14 +2,15 @@
 Python code that utilizes the mechanize library for netaccess approval of the IIT Madras network from command line
 
 ## Quick Installation
-An AUTOINSTALL script is available in this repository that automatically installs all necessary programs without user intervention. The user may copy it and run it using sudo priveleges by invoking the command
+An AUTOINSTALL script is available in this repository that automatically installs all necessary programs without user intervention. Copy the script AUTOINSTALL and run it using sudo priveleges by invoking the command
 ```sh
 sudo bash AUTOINSTALL
 ```
-Further, the code may be run using the command 
+Further, the code may be run when desired by using the command 
 ```sh
 netaccess
 ```
+To avoid entering username and password everytime on execution, refer the section on customizations below.
 All instructions provided below are automatically executed by the script AUTOINSTALL.
 
 ## Normal Installation
@@ -29,7 +30,8 @@ Ensure the following programs/libraries are installed on your system. If not, us
 4. mechanize library for Python `pip install mechanize`
 
 ## Customizations
-Enter your username and password inside the code in "YourUsername" and "YourPassword". You may also obtain your password during runtime via function call by uncommenting appropriately in the code.
+The script *netaccess.py* is by default placed in the directory /usr/bin and may be edited using an editor of your choice (like gedit or vim).
+To avoid having to enter username and password every time the code is executed, enter your username and password inside the code in the fields *"YourUsername"* and *"YourPassword"* in line number . Retain the double quotes. Leaving the password field unchanged lets you input your password during runtime securely.
 
 ## Usage
 After installation, change the mode of the code to 'executable' by issuing the command
@@ -37,7 +39,7 @@ After installation, change the mode of the code to 'executable' by issuing the c
 sudo chmod +x netaccess.py
 ```
 
-Move the code to /usr/bin/ for universal access. The code may then be run by issuing
+Move the code to /usr/bin for universal access. The code may then be run by issuing
 ```sh
 netaccess
 ```
