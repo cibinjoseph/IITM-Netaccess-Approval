@@ -31,7 +31,7 @@ Ensure the following programs/libraries are installed on your system. If not, us
 
 ## Customizations
 The script *netaccess.py* is by default placed in the directory /usr/bin and may be edited using an editor of your choice (like gedit or vim).
-To avoid having to enter username and password every time the code is executed, enter your username and password inside the code in the fields *"YourUsername"* and *"YourPassword"* in line number . Retain the double quotes. Leaving the password field unchanged lets you input your password during runtime securely.
+To avoid having to enter username and password every time the code is executed, enter your username and password inside the code in the fields *"YourUsername"* and *"YourPassword"* in line number 7 and 8. Retain the double quotes. Leaving the password field unchanged lets you input your password during runtime securely.
 
 ## Usage
 After installation, change the mode of the code to 'executable' by issuing the command
