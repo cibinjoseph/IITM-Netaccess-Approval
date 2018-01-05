@@ -47,7 +47,7 @@ netaccess
 ```
 
 ## Author
-[**Cibin joseph**](https://github.com/cibinjoseph/), Aerospace Engineering, IIT Madras
+[**Cibin Joseph**](https://github.com/cibinjoseph/), Aerospace Engineering, IIT Madras
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
