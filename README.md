@@ -2,8 +2,9 @@
 Python code that utilizes the mechanize library for netaccess approval of the IIT Madras network from command line
 
 # Usage
-The script *netaccess.py* is by default placed in the directory /usr/bin and may be edited using an editor of your choice (like gedit or vim).
-To avoid having to enter username and password every time the code is executed, enter your username and password inside the code in the fields *"YourUsername"* and *"YourPassword"* in line number 7 and 8. Retain the double quotes. Leaving the password field unchanged lets you input your password during runtime securely.
+1. To run code, use command "netaccess"
+2. To avoid having to input username and password every time the code is executed, enter them directly in the code located at /usr/bin/netaccess.py in the fields "YourUsername" and "YourPassword" in line number 7 and 8. Retain the double quotes.'
+3. Leaving the password field unchanged lets you input it during runtime securely.'
 
 # Installation
 ## Quick Installation
