@@ -21,4 +21,15 @@ cp netaccess_git/netaccess.py /usr/bin
 echo 'Removing unnecessary netaccess_git directory'
 rm -r netaccess_git
 
+echo
 echo 'INSTALLATION COMPLETED SUCCESSFULLY'
+echo
+echo '---------------- USAGE ----------------'
+echo '1. To run code, use command "netaccess"'
+echo '2. To avoid having to input username and password every time the code is executed,'
+echo '     enter them directly in the code located at /usr/bin/netaccess.py'
+echo '     in the fields "YourUsername" and "YourPassword" in line number 7 and 8.'
+echo '     Retain the double quotes.'
+echo '3. Leaving the password field unchanged lets you input it during runtime securely.'
+echo '---------------------------------------'
+
