@@ -3,8 +3,8 @@ Python code that utilizes the mechanize library for netaccess approval of the II
 
 # Usage
 1. To run code, use command `netaccess`
-2. To avoid having to input username and password every time the code is executed, enter them directly in the code located at `/usr/bin/netaccess.py` in the fields *"YourUsername"* and *"YourPassword"* in line number 7 and 8. Retain the double quotes.'
-3. Leaving the password field unchanged lets you input it during runtime securely.'
+2. To avoid having to input username and password every time the code is executed, enter them directly in the code located at `/usr/bin/netaccess.py` in the fields *"YourUsername"* and *"YourPassword"* in line number 7 and 8. Retain the double quotes.
+3. Leaving the password field unchanged lets you input it during runtime securely.
 
 # Installation
 ## Quick Installation
