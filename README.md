@@ -32,7 +32,7 @@ git clone "git://github.com/cibinjoseph/IITM-Netaccess-Approval.git"
 Ensure the following programs/libraries are installed on your system. If not, use the corresponding commands provided to install them (For Ubuntu OS) 
 1. git `sudo apt install git`
 2. python `sudo apt install python`
-3. pip `sudo apt install python-pip`
+3. pip2 `sudo apt install python-pip`
 4. mechanize library for Python `pip install mechanize`
 
 ## Setup

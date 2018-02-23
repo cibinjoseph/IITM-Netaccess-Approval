@@ -8,7 +8,7 @@ apt install git
 git clone https://github.com/cibinjoseph/IITM-Netaccess-Approval.git netaccess_git
 apt install python
 apt install python-pip
-pip install mechanize
+pip2 install mechanize
 
 # Change netaccess.py to executable 
 echo 'Creating temperory netaccess_git directory'
