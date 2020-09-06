@@ -15,6 +15,7 @@ import getpass
 try:
     try:
         import mechanize
+        import ssl
     except:
         import sys
         if sys.version_info[0] >= 3:
@@ -28,6 +29,8 @@ try:
     br=mechanize.Browser()
 
     try:
+        ssl._create_default_https_context = ssl._create_unverified_context
+        br.set_handle_robots(False)
         response=br.open("https://netaccess.iitm.ac.in/account/login") 
         print('1/3 Page')
     except:
